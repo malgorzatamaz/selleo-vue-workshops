@@ -6,7 +6,6 @@
       <div class="alert alert-info" v-if="!products || !products.length">
         Brak produktów :(
       </div>
-
       <div class="row" v-else>
         <div
           class="col-md-6"

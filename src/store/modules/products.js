@@ -18,7 +18,7 @@ const actions = {
     const products = await response.json()
     const formattedProducts = products.map((product, index) => ({
       ...product,
-      inventory: index === 0 ? 0 : product.inventory,
+      inventory: 5,
       id: index + 1,
       thumb: Math.random() > 0.35 ? 'https://picsum.photos/300/200' : null
     }))
